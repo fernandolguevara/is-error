@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "node library to check if the passed value is an error",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandolguevara/is-error.git"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "test": "cross-env BABEL_ENV=production jest",
