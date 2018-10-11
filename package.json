@@ -1,8 +1,8 @@
 {
-  "name": "is-error",
+  "name": "@propellerheads/is-error",
   "version": "0.0.1",
   "description": "node library to check if the passed value is an error",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
     "test": "cross-env BABEL_ENV=production jest",
